@@ -35,3 +35,19 @@ Before getting started, ensure you have the following:
 - Mongoose (MongoDB ORM)
 - Google Sheets API
 - MongoDB Atlas
+  
+### Bug Reports and Feedback
+
+Please don't hesitate to report any issues or bugs you encounter while using the API. Your feedback is valuable in enhancing the project.
+
+License This project is released under the MIT License. You are more than welcome to use, modify, and distribute the code according to the license terms.
+
+### About Me
+
+I am a passionate developer enthusiastic about exploring new technologies and building practical applications. I created this project to share my knowledge and contribute to the developer community.
+
+Thank you for visiting my GitHub repository. I hope you find this project helpful and informative. If you have any questions or suggestions, please feel free to reach out to me.
+
+Happy coding!
+
+**VISWAJETH T S R**
