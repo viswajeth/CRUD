@@ -40,7 +40,7 @@ Before getting started, ensure you have the following:
 
 Please don't hesitate to report any issues or bugs you encounter while using the API. Your feedback is valuable in enhancing the project.
 
-**License**
+## License
 
 This project is released under the MIT License. You are more than welcome to use, modify, and distribute the code according to the license terms.
 
