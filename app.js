@@ -26,7 +26,7 @@ client.authorize(function(err,tokens){
 const app = express();
 const PORT = 3000;
 
-mongoose.connect('mongodb+srv://tsrviswajeth:viswajeth@excel.4nctr3z.mongodb.net/Excel?retryWrites=true&w=majority', {
+mongoose.connect('YOUR_MONGODB_CONNECTION_STRING', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
@@ -51,7 +51,7 @@ async function gsrun(cli){
   try{
     const gsapi=google.sheets({version:'v4',auth:cli});
   const opt={
-    spreadsheetId:'17itjdorhyRMvxnyQFij2iR6MFwyxMqIXzh-gBqSBFLo',
+    spreadsheetId:'YOUR_SPREADSHEET_ID',
     range:'Sheet1!A3:F3'
   };
    var data = await gsapi.spreadsheets.values.get(opt);
@@ -78,7 +78,7 @@ async function gsrun(cli){
     try{
       const gsapi=google.sheets({version:'v4',auth:cli});
     const opt={
-      spreadsheetId:'17itjdorhyRMvxnyQFij2iR6MFwyxMqIXzh-gBqSBFLo',
+      spreadsheetId:'YOUR_SPREADSHEET_ID',
       range:'Sheet1!A7'
     };
       const data = await gsapi.spreadsheets.values.get(opt);
@@ -96,7 +96,7 @@ async function gsrun(cli){
       try{
         const gsapi=google.sheets({version:'v4',auth:cli});
       const opt={
-        spreadsheetId:'17itjdorhyRMvxnyQFij2iR6MFwyxMqIXzh-gBqSBFLo',
+        spreadsheetId:'YOUR_SPREADSHEET_ID',
         range:'Sheet1!A13:G13'
       };
        var data = await gsapi.spreadsheets.values.get(opt);
