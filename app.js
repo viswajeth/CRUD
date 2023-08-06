@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const {google} = require('googleapis')
 const keys=require('./credentials.json');
 const { ObjectId } = require('mongodb');
-
+ const read=require('./read.js')
 
 
 const client = new google.auth.JWT(
@@ -120,7 +120,7 @@ async function gsrun(cli){
       });
       app.get('/read_users',async(req,res)=>{
         try{
-            const read=require('./read.js')
+           read.main();
           
           res.status(200).json({ message: 'Users populated in the Google Sheet' });
         
