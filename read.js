@@ -1,10 +1,10 @@
 const { google } = require('googleapis');
 const { MongoClient } = require('mongodb');
 
-const mongoUri = 'mongodb+srv://tsrviswajeth:viswajeth@excel.4nctr3z.mongodb.net/Excel?retryWrites=true&w=majority';
+const mongoUri = 'YOUR_MONGODB_CONNECTION_STRING';
 const dbName='Excel';
 const collectionName = 'users';
-const spreadsheetId = '17itjdorhyRMvxnyQFij2iR6MFwyxMqIXzh-gBqSBFLo';
+const spreadsheetId = 'YOUR_SPREADSHEET_ID';
 const credentials = require('./credentials.json');
 
 async function readDataFromMongoDB() {
